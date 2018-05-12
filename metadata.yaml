@@ -1,0 +1,29 @@
+_repo: Tak-ts-S-ndor-Szalai-Bark-czy-Krisztina-1671-1724-cz-m--k-nyv-nek-ismertet-se_19040
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Angyal, Dávid
+    alias: Angyal, David
+    birthdate: 1857
+    deathdate: 1943
+    gutenberg_agent_id: '8423'
+    url: http://www.gutenberg.org/2009/agents/8423
+    wikipedia: http://hu.wikipedia.org/wiki/Angyal_D%C3%A1vid
+description: ''
+gutenberg_issued: '2006-08-14'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '19040'
+language: hu
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PH'
+- !lcsh 'Takáts, Sándor, 1860-1932. Szalai Barkóczy Krisztina, 1671-1724'
+- !lcc 'DB'
+title: Takáts Sándor Szalai Barkóczy Krisztina 1671-1724 czímű könyvének ismertetése
+url: http://www.gutenberg.org/ebooks/19040
