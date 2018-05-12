@@ -13,6 +13,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/8423
     wikipedia: http://hu.wikipedia.org/wiki/Angyal_D%C3%A1vid
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/19040#Tak-ts-S-ndor-Szalai-Bark-czy-Krisztina-1671-1724-cz-m--k-nyv-nek-ismertet-se
 gutenberg_issued: '2006-08-14'
 gutenberg_type: Text
 identifiers:
