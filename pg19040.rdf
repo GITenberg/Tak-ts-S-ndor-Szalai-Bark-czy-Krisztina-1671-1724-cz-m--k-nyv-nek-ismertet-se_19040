@@ -1,194 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/19040">
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nb2a4b16a27bf4bb799d1e1f0402a1bda">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">hu</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-h/19040-h.htm">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.epub.images">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec6e1143a1c044ed868aeb3ec7ea74d5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-2</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37265</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-15T06:59:10</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-14</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba42aa53ec1145a4a8d0ade4ed3a2924">
+          <rdf:Description rdf:nodeID="N4214df44cc1d4d03b02066ce7fe33829">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:34:57.481747</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31277</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15766</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:11:57.763911</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-h/19040-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-16T10:04:30</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-15T06:59:10</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37265</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5c8a59ccffcd4e2c8707a3edb9e7d581">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11406</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2a32473cec5a4a6e8d6fdf8ecb4a356b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-2</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N01977c1a41ba415eb52223aa053874e4">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PH</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/8423">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://hu.wikipedia.org/wiki/Angyal_D%C3%A1vid"/>
-        <pgterms:alias>Angyal, David</pgterms:alias>
-        <pgterms:name>Angyal, Dávid</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</pgterms:deathdate>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-0.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4d5abcbba6a84707acaa75c9d69ab0a5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29466</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-14T08:59:10</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7000150e0e114cfcbf2d36a8422f210c">
+          <rdf:Description rdf:nodeID="Nae3e4e37abc14aaabe35746bf32f86ef">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-2</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-15T07:00:08</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0a51e252ef514e9f962e940dbb8afb3d">
+          <rdf:Description rdf:nodeID="N18410e5ae9914659b397987974c2ece2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-2</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28540</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-16T10:00:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf94f5d4c7c7a45939fe8b38ff033fc29">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">hu</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Ncf4ceeb09f3346d388edc0618e0071aa">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/8423">
+        <pgterms:name>Angyal, Dávid</pgterms:name>
+        <pgterms:webpage rdf:resource="http://hu.wikipedia.org/wiki/Angyal_D%C3%A1vid"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</pgterms:birthdate>
+        <pgterms:alias>Angyal, David</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:14:20.098032</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N21bfa800449b4842b9ddb10296868c13">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12720</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N13c1e91416d84c46ad84e65fb78b1502">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-2</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8bdea536ea404ffab1cb0d0fd5e400ad">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13012</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-15T07:00:08</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N46d0aab8d5e74ccfbb526d74c439c557">
+      <rdf:Description rdf:nodeID="N7e33ba5d322b4986a1ac10fd48c7ee59">
         <rdf:value>DB</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-8.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-16T10:00:30</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28540</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-0.txt">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N89afbcbb5f4d4569b955223d245228b0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-2</rdf:value>
+          <rdf:Description rdf:nodeID="N3415b2af54af4c5b98443d023a36c833">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29466</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-14T08:59:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-16T10:04:30</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11406</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0b9561d1f75f480bab94227281705765">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-2</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0ebfd5188e3b4ff5a56526859c3fd3b7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6f04f90891894660a9a25c9a3271273c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PH</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N307682e51c804a2ea83849bf0f0a73e9">
+        <rdf:value>Takáts, Sándor, 1860-1932. Szalai Barkóczy Krisztina, 1671-1724</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-14</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:11:57.947911</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N12016077152c4df7960f4f8fd844ac49">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15765</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfc8a0b98bf9c441f85ac5e9ea8970cad">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5628d6bfa5274837a6d40fc87b0936d2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-14T09:00:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11572</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Takáts Sándor Szalai Barkóczy Krisztina 1671-1724 czímű könyvének ismertetése</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79618</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:11:58.142908</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndd88a32c7f344a8da2e09b4673885e9d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79609</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:34:57.987260</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7588c70d6885434394daad4d151dbb28">
+          <rdf:Description rdf:nodeID="Nf47adf58826b4f14933f7ebc75e042b2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46836</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:11:58.355895</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19040.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16717</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T22:44:17.725264</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N77c233946026400492aaab16e8b8ce10">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19040/19040-0.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/19040"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-14T09:00:16</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11572</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N56aaddc7cfc04adea939d0e4f574cd86">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nace90921cf544624923fe2f3dd8d91c7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:title>Takáts Sándor Szalai Barkóczy Krisztina 1671-1724 czímű könyvének ismertetése</dcterms:title>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na6c361b2fe7746fca0f1139935518730">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Takáts, Sándor, 1860-1932. Szalai Barkóczy Krisztina, 1671-1724</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Ne5bf66ee9dc345b594ce7294abb480a3">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://hu.wikipedia.org/wiki/Angyal_D%C3%A1vid">
     <dcterms:description>hu.wikipedia</dcterms:description>
